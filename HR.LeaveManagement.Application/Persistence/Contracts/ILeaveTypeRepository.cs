@@ -5,7 +5,7 @@ using System.Text;
 
 namespace HR.LeaveManagement.Application.Persistence.Contracts
 {
-    internal interface ILeaveTypeRepository:IGenericRepository<LeaveType>
+    public interface ILeaveTypeRepository:IGenericRepository<LeaveType>
     {
     }
 }
